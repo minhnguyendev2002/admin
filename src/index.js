@@ -11,11 +11,13 @@ import Member from "./Pages/Member/Member"
 import OrderList from "./Pages/orderList/orderList";
 import MenuList from "./Pages/menuList/menuList"
 import AddPost from "./Pages/addPost/addPost";
+import Login from "./Components/Login/Login";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <Router>
+    <Login />
     <div className="d-flex">
       <Nav />
         <Routes>

@@ -1,0 +1,185 @@
+#myModal {
+    display: block;
+}
+.User-modal {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999999999999999999999999999999999999999;
+}
+.modal-overley {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-image: url("./11.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+.modal-box {
+    width: 400px;
+    height: auto;
+    background-color:#fff;
+    z-index: 10;
+    border-radius: 12px;
+    animation: ZoomOut 0.3s ease;
+}
+.Sign-In-Box {
+    text-align: center;
+    padding: 20px 30px 20px;
+}
+.Sign-In-Box > span:nth-child(1) {
+    float: right;
+    color: #000;
+    font-size: 18px;
+    position: relative;
+    right: -7px;
+    top: -14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Sign-In-Box h1 {
+    color: var(--text-color-1);
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0 10px 10px;
+}
+.Sign-In-Box .fa-user, 
+.Sign-In-Box .fa-lock,
+.Sign-In-Box .fa-user-plus,
+.Sign-In-Box .fa-at,
+.Sign-In-Box .fa-unlock-alt,
+.Sign-In-Box .fa-key {
+    color: #acacac;
+    font-size: 15px;
+} 
+.Social-media h4 {
+    font-size: 14px;
+    margin: 15px 0;
+    color: var(--primary-color);
+}
+.Social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Social-media ul li a {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #333;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 8px;
+    color: #333;
+    transition: .2s ease;
+}
+.Social-media ul li a:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 50%;
+}
+.form__input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 12px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    position: relative;
+}
+.form__input-group span {
+    width: 12%;
+    display: block;
+    padding-right: 12px;
+}
+.form__text {
+    font-size: 14px;
+    margin: 15px 0;
+}
+.form__text a:hover {
+    color: #111;
+}
+.form__text a span {
+    transition: ease .2s;
+}
+.form__text a span:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.form--hidden {
+    display: none;
+}
+.form > *:first-child {
+    margin-top: 0;
+}
+.form > *:last-child {
+    margin-bottom: 0;
+}
+.form__input {
+    display: block;
+    flex: 1;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: none;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+}
+.form__button {
+    width: 140px;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s ease;
+    margin: 5px 0px;
+    color: #FFF;
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+.form__button:hover {
+    color: var(--primary-color);
+    background-color: #FFF;
+    border: 2px solid var(--primary-color);
+}
+.form__button:active {
+    transform: scale(0.98);
+}
+.form__link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: default;
+    font-size: 14px;
+    font-weight: 500;
+}
+.conguration {
+    color: #ee2624;
+    margin: 5px 0 10px;
+    display: block;
+}
+.show-conguration {
+    display: block;
+}
+.error-mess {
+    position: absolute;
+    bottom: -22px;
+    color: red;
+    left: 15px;
+    font-size: 12px;
+}
