@@ -6,7 +6,7 @@ const OrderDetail = () => {
   return (
     <>
     <div className="content">
-      <Header title="Danh sách phòng"/>
+      <Header title="Member List"/>
       <div className="box">
         <MemberTable />
       </div>

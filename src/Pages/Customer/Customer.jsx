@@ -6,7 +6,7 @@ const Customer = () => {
   return (
     <>
     <div className="content">
-      <Header title="Khách hàng"/>
+      <Header title="Customer"/>
       <div className="box">
         <Table />
       </div>

@@ -5,7 +5,7 @@ const OrderList = () => {
   return (
     <>
     <div className="content">
-      <Header title="Danh sách dịch vụ"/>
+      <Header title="Menu List"/>
       <div className="box">
         <Table />
       </div>
