@@ -44,7 +44,7 @@ li {
   flex: 1;
 }
 .box {
-  margin: 100px 0px 0px 280px;
+  width: 1000px;
   padding: 25px 25px;
   background-color: #fbfbfb;
 }

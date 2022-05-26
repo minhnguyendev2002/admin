@@ -8,7 +8,7 @@ const Login = () => {
     const [error, setError] = useState("")
     const onSubmit = data => {
         context.setAccept(data.username === "admin" && data.password === "Admin123456" ? true : false)
-        localStorage.setItem("accept", `${data.username === "admin" && data.password === "Admin123456" ? "true" : "false"}`)
+        localStorage.setItem("accept", `${data.username === "admin" && data.password === "Admin123456" ? true : false}`)
         setError(data.username === "admin" && data.password === "Admin123456" ? "" : "Sai tài khoản hoặc mật khẩu")
     };
     const { register, handleSubmit, formState: { errors }, } = useForm()

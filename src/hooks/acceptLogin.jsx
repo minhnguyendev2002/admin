@@ -3,7 +3,7 @@ import {useState, createContext} from 'react';
 const LoginContext = createContext();
 
 function LoginProvider({children}) {
-    const [accept, setAccept] = useState(false)
+    const [accept, setAccept] = useState(localStorage.getItem("accept") === null ? false : true)
     
     const value = {
         accept,
