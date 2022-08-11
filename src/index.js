@@ -22,7 +22,7 @@ const Index = () => {
         context.accept ? 
         <>
           <div className="d-flex">
-            {/* <Nav /> */}
+            <Nav />
               <Routes>
                 <Route path="/" element={<App />} />
                 <Route exact path="/blogs" element={<Blogs />} />
